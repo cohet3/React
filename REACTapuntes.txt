@@ -1,0 +1,27 @@
+******************************************COMANDOS REACT******************************************
+Para crear un ptoyecto accedemos a la ruta donde lo vamos a ubicar.
+npx create-react-app carro-de-compras
+npm start ._arranca el proyecto
+
+
+
+
+
+
+
+
+
+***************************************CONCEPTOS/ACLARACIONES***********************************
+REACT es una librería , declarativa, eficiente, predecible, Componenetes.
+JSX = JS + XML
+babel sirve para que funcione javascrip en todos los navegadores
+const._ no varia la definicion
+let.- varian los datos
+variables scoup ._ variables de rango solo funcionan dentro de una funcion
+var No se debe usar
+{} un obejor (Prototipe)
+[] es un arreglo Arra
+... operador spred sirve para crear copias pero lo que  hace es extraer informacion
+*******************************Comandos Utiles VSCODe***********************
+ctrl+space   .- genera sugerencias q no ha generado por defectol
+pulsando f2 renombramos algo y cambia en todos los sitios q este escrito.
