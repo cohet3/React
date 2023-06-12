@@ -27,7 +27,7 @@ FirstApp.propTypes = {
   subTitle: PropTypes.string.isRequired,
 };
 FirstApp.defaultProps = {
-  title: "no hay titulo",
+  // title: "no hay titulo",
   subTitle: "no hay subtitulo",
   name: "DAnny Rodas",
 };
