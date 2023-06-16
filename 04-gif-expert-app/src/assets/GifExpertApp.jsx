@@ -5,7 +5,10 @@ import React from 'react'
 const GifExpertApp = () => {
   return (
     <>
+         {/* {titulo} */}
         <h1>GitExpertApp</h1>
+        {/* {input}
+        {gif item} */}
     </>
   )
 }
