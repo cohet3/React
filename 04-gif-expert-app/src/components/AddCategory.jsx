@@ -18,9 +18,9 @@ const AddCategory = ({ onNewCategory }) => {
     }
   return (
     <form onSubmit={ onSumit }>
-        <input 
+        <input
         type='text'
-        placeholder="Buscar gifs" 
+        placeholder="Buscar gifs"
         value={ inputValue }
         onChange={ onInputChange }
         />
