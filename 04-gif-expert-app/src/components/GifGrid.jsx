@@ -1,16 +1,17 @@
-import getGifs from "../helpers/getGifs";
+import { getGifs } from"../helpers/getGifs";
 
-
-const GifGrid = ( { category }) => {
     
+
+
+const GifGrid = ({ category }) => {
+
     getGifs(category);
 
-  return (
-    <>
-        <h3>{ category }</h3>
-        
-    </>
-  )
-}
+    return (
+      <>
+          <h3>{ category }</h3>
+      </>
+    )
+  }
 
 export default GifGrid
