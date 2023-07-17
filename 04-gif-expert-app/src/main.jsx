@@ -8,15 +8,21 @@ import ClickPrinting from "./components/ClickPrinting";
 import Hook from "./components/Hook-App/Hook";
 import "./custom.css";
 import CounterApp from "./components/Hook-App/01-useState/CounterApp";
+import CounterWithCustomHook from "./components/Hook-App/01-useState/CounterWithCustomHook";
+import { SimpleForm } from "./components/Hook-App/02-useEffect/SimpleForm";
+import { FormWithCustomHook } from "./components/Hook-App/02-useEffect/FormWithCustomHook";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <React.StrictMode>
+  <>
     {/* <GifExpertApp /> */}
     {/* <Pruebacss /> */}
     {/* <PruebaBou /> */}
     {/* <Camara /> */}
     {/* <ClickPrinting /> */}
-    <Hook />
-    <CounterApp />
-  </React.StrictMode>
+    {/* <Hook />
+    <CounterApp /> */}
+    {/* <CounterWithCustomHook /> */}
+    {/* <SimpleForm /> */}
+    <FormWithCustomHook />
+  </>
 );
