@@ -12,6 +12,8 @@ import CounterWithCustomHook from "./components/Hook-App/01-useState/CounterWith
 import { SimpleForm } from "./components/Hook-App/02-useEffect/SimpleForm";
 import { FormWithCustomHook } from "./components/Hook-App/02-useEffect/FormWithCustomHook";
 import { MultipleCustomHooks } from "./components/Hook-App/03-examples/MultipleCustomHooks";
+import PruebaBou from "./components/PruebaBou";
+import { FocusScreem } from "./components/Hook-App/04-useRef/FocusScreem";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <>
@@ -25,6 +27,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     {/* <CounterWithCustomHook /> */}
     {/* <SimpleForm /> */}
     {/* <FormWithCustomHook /> */}
-    <MultipleCustomHooks />
+    {/* <MultipleCustomHooks /> */}
+    <FocusScreem />
   </>
 );
