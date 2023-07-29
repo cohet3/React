@@ -9,7 +9,7 @@ export const MultipleCustomHooks = () => {
   // if (isLoading) {
   //   return <h1>Loading...</h1>;
   // }
-  const { id, name } = !!data && data[0];
+  const { id } = data?.[0] || {};
 
   console.log(data);
   console.log(id, name);
@@ -23,9 +23,14 @@ export const MultipleCustomHooks = () => {
         <div className="alert alert-info text-center">Loading...</div>
       ) : (
         <blockquote className="blockquote text-end">
-          <p className="mb-1"></p>
+          <p className="mb-1">{data.id}</p>
+          <img
+            src={data.image}
+            alt="Foto de los personajes de Rick and Morty"
+            className="img-fluid-right"
+          />
 
-          <footer className="blockquote-footer"></footer>
+          <footer className="blockquote-footer-black">{data.name}</footer>
         </blockquote>
       )}
 

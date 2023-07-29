@@ -14,6 +14,7 @@ import { FormWithCustomHook } from "./components/Hook-App/02-useEffect/FormWithC
 import { MultipleCustomHooks } from "./components/Hook-App/03-examples/MultipleCustomHooks";
 import PruebaBou from "./components/PruebaBou";
 import { FocusScreem } from "./components/Hook-App/04-useRef/FocusScreem";
+import { Layout } from "./components/Hook-App/05-useLayoutEffect/Layout";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <>
@@ -28,6 +29,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     {/* <SimpleForm /> */}
     {/* <FormWithCustomHook /> */}
     {/* <MultipleCustomHooks /> */}
-    <FocusScreem />
+    {/* <FocusScreem />  */}
+    <Layout />
   </>
 );
