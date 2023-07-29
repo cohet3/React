@@ -5,18 +5,31 @@ import "./styles.css";
 import Pruebacss from "./components/Pruebacss";
 import Camara from "./components/Camara";
 import ClickPrinting from "./components/ClickPrinting";
-import Hook from "./components/Hook-App/Hook";
+
 import "./custom.css";
 import CounterApp from "./components/Hook-App/01-useState/CounterApp";
+import CounterWithCustomHook from "./components/Hook-App/01-useState/CounterWithCustomHook";
+import { SimpleForm } from "./components/Hook-App/02-useEffect/SimpleForm";
+import { FormWithCustomHook } from "./components/Hook-App/02-useEffect/FormWithCustomHook";
+import { MultipleCustomHooks } from "./components/Hook-App/03-examples/MultipleCustomHooks";
+import PruebaBou from "./components/PruebaBou";
+import { FocusScreem } from "./components/Hook-App/04-useRef/FocusScreem";
+import { Layout } from "./components/Hook-App/05-useLayoutEffect/Layout";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <React.StrictMode>
+  <>
     {/* <GifExpertApp /> */}
     {/* <Pruebacss /> */}
     {/* <PruebaBou /> */}
     {/* <Camara /> */}
     {/* <ClickPrinting /> */}
-    <Hook />
-    <CounterApp />
-  </React.StrictMode>
+    {/* <Hook />
+    <CounterApp /> */}
+    {/* <CounterWithCustomHook /> */}
+    {/* <SimpleForm /> */}
+    {/* <FormWithCustomHook /> */}
+    {/* <MultipleCustomHooks /> */}
+    {/* <FocusScreem />  */}
+    <Layout />
+  </>
 );
