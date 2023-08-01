@@ -15,6 +15,8 @@ import { MultipleCustomHooks } from "./components/Hook-App/03-examples/MultipleC
 import PruebaBou from "./components/PruebaBou";
 import { FocusScreem } from "./components/Hook-App/04-useRef/FocusScreem";
 import { Layout } from "./components/Hook-App/05-useLayoutEffect/Layout";
+import { Memorize } from "./components/Hook-App/06-memos/Memorize";
+import { MemoHook } from "./components/Hook-App/06-memos/MemoHook";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <>
@@ -30,6 +32,8 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     {/* <FormWithCustomHook /> */}
     {/* <MultipleCustomHooks /> */}
     {/* <FocusScreem />  */}
-    <Layout />
+    {/* <Layout /> */}
+    {/* <Memorize /> */}
+    <MemoHook />
   </>
 );
