@@ -17,6 +17,8 @@ import { FocusScreem } from "./components/Hook-App/04-useRef/FocusScreem";
 import { Layout } from "./components/Hook-App/05-useLayoutEffect/Layout";
 import { Memorize } from "./components/Hook-App/06-memos/Memorize";
 import { MemoHook } from "./components/Hook-App/06-memos/MemoHook";
+import { CallbackHook } from "./components/Hook-App/06-memos/CallbackHook";
+import { Padre } from "./components/Hook-App/07-tarea-memo/Padre";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <>
@@ -34,6 +36,8 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     {/* <FocusScreem />  */}
     {/* <Layout /> */}
     {/* <Memorize /> */}
-    <MemoHook />
+    {/* <MemoHook /> */}
+    {/* <CallbackHook /> */}
+    <Padre />
   </>
 );

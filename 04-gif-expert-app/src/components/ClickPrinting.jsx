@@ -1,8 +1,16 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Upload from "./Upload";
 
 const Work = ({ Items, id }) => {
   // console.log(Items);
+
+  useEffect(() => {
+    first;
+
+    return () => {
+      second;
+    };
+  }, [third]);
 
   const num = 3;
   const items = ["modelo:1", "modelo:2", "modelo:3"];
