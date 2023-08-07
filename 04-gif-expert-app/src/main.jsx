@@ -19,25 +19,26 @@ import { Memorize } from "./components/Hook-App/06-memos/Memorize";
 import { MemoHook } from "./components/Hook-App/06-memos/MemoHook";
 import { CallbackHook } from "./components/Hook-App/06-memos/CallbackHook";
 import { Padre } from "./components/Hook-App/07-tarea-memo/Padre";
+import "./components/Hook-App/08-useReducer/intro-reducer";
 
-ReactDOM.createRoot(document.getElementById("root")).render(
-  <>
-    {/* <GifExpertApp /> */}
-    {/* <Pruebacss /> */}
-    {/* <PruebaBou /> */}
-    {/* <Camara /> */}
-    {/* <ClickPrinting /> */}
-    {/* <Hook />
-    <CounterApp /> */}
-    {/* <CounterWithCustomHook /> */}
-    {/* <SimpleForm /> */}
-    {/* <FormWithCustomHook /> */}
-    {/* <MultipleCustomHooks /> */}
-    {/* <FocusScreem />  */}
-    {/* <Layout /> */}
-    {/* <Memorize /> */}
-    {/* <MemoHook /> */}
-    {/* <CallbackHook /> */}
-    <Padre />
-  </>
-);
+// ReactDOM.createRoot(document.getElementById("root")).render(
+//   <>
+//     {/* <GifExpertApp /> */}
+//     {/* <Pruebacss /> */}
+//     {/* <PruebaBou /> */}
+//     {/* <Camara /> */}
+//     {/* <ClickPrinting /> */}
+//     {/* <Hook />
+//     <CounterApp /> */}
+//     {/* <CounterWithCustomHook /> */}
+//     {/* <SimpleForm /> */}
+//     {/* <FormWithCustomHook /> */}
+//     {/* <MultipleCustomHooks /> */}
+//     {/* <FocusScreem />  */}
+//     {/* <Layout /> */}
+//     {/* <Memorize /> */}
+//     {/* <MemoHook /> */}
+//     {/* <CallbackHook /> */}
+//     <Padre />
+//   </>
+// );
