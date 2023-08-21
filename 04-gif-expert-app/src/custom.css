@@ -8,3 +8,205 @@ button {
 a {
   margin-right: 5px;
 }
+.container-fluid {
+  width: 100%;
+  max-width: 1200px; /* Puedes ajustar este valor según tus necesidades */
+  margin: 0 auto;
+  padding: 20px;
+
+  @media (min-width: 992px) {
+    padding: 20px;
+    width: 100%;
+    display: block !important;
+  }
+
+  @media (max-width: 991px) and (min-width: 768px) {
+    padding: 20px;
+    width: 100%;
+    display: block !important;
+  }
+  @media (max-width: 767px) {
+    padding: 10px;
+    display: block !important;
+  }
+}
+
+.españa {
+  --uv-styles-color-outline: #3c4043;
+  --uv-styles-color-scrim: #0009;
+  --uv-styles-color-on-scrim: #fff;
+  --uv-styles-color-icon-on-scrim: #fff;
+  --uv-styles-color-primary: #8ab4f8;
+  --uv-styles-color-on-primary: #202124;
+  --uv-styles-color-secondary: #394457;
+  --uv-styles-color-icon-on-secondary: #9aa0a6;
+  --uv-styles-color-on-secondary: #d2e3fc;
+  --uv-styles-color-tertiary: #303134;
+  --uv-styles-color-on-tertiary: #bdc1c6;
+  --uv-styles-color-icon-on-tertiary: #bdc1c6;
+  --uv-styles-color-text-primary: #8ab4f8;
+  --uv-styles-color-text-emphasis: #e8eaed;
+  --uv-styles-color-icon-emphasis: #e8eaed;
+  --uv-styles-color-text-de-emphasis: #9aa0a6;
+  --uv-styles-color-text-default: #bdc1c6;
+  --uv-styles-color-icon-default: #bdc1c6;
+  --uv-styles-color-review-stars: #fdd663;
+  --uv-styles-color-review-stars-empty: #80868b;
+  --uv-styles-color-letterbox: #000;
+  --uv-styles-color-surface: #171717;
+  --uv-styles-color-footer: #171717;
+  --lens-transparent-image-checkerboard-dark: rgb(232, 234, 237);
+  --lens-transparent-image-checkerboard-light: #fff;
+  --lens-title-text-color: var(--lens-text-color-primary);
+  --lens-subtitle-text-color: var(--lens-text-color-secondary);
+  --lens-label-text-color: var(--lens-text-color-secondary);
+  --lens-description-text-color: var(--lens-text-color-secondary);
+  --lens-feedback-text-color: var(--lens-text-color-secondary);
+  --safesearch-banner-border-color: rgb(241, 243, 244);
+  --lens-copy-button-text-color: rgb(60, 64, 67);
+  --lens-copy-button-icon-color: rgb(26, 115, 232);
+  --lens-copy-button-container-fill-color: #fff;
+  --lens-language-list-divider-color: rgb(232, 234, 237);
+  --lens-llm-accent2-color: rgb(150, 90, 255);
+  --lens-title1-font-size: calc(18 / var(--lens-base-font-size, 16) * 1rem);
+  --lens-title2-font-size: calc(16 / var(--lens-base-font-size, 16) * 1rem);
+  --lens-title3-font-size: calc(14 / var(--lens-base-font-size, 16) * 1rem);
+  --lens-subtitle1-font-size: calc(14 / var(--lens-base-font-size, 16) * 1rem);
+  --lens-label-font-size: calc(12 / var(--lens-base-font-size, 16) * 1rem);
+  --lens-body1-font-size: calc(14 / var(--lens-base-font-size, 16) * 1rem);
+  --lens-body2-font-size: calc(12 / var(--lens-base-font-size, 16) * 1rem);
+  --lens-popular-brand-color: rgb(252, 173, 112);
+  --lens-background-color-primary: rgb(32, 33, 36);
+  --lens-background-color-secondary: rgb(95, 99, 104);
+  --lens-background-image-fill-color: rgb(60, 64, 67);
+  --lens-background-image-fill-with-scrim-color: rgb(54, 58, 61);
+  --lens-image-scrim-color: rgba(255, 255, 255, 0.03);
+  --loading-skeleton-color: rgb(60, 64, 67);
+  --loading-shine-color: rgb(95, 99, 104);
+  --luxe-secondary-color: rgba(57, 68, 87, 1);
+  --lens-text-color-primary: rgb(232, 234, 237);
+  --lens-text-color-secondary: rgb(154, 160, 166);
+  --lens-text-color-tertiary: rgb(232, 234, 237);
+  --lens-text-color-disabled: rgb(128, 134, 139);
+  --lens-link-color-primary: rgb(138, 180, 248);
+  --lens-link-color-secondary: rgb(210, 227, 252);
+  --lens-link-color-tertiary: rgb(138, 180, 248);
+  --lens-failure-info-text-color: rgb(232, 234, 237);
+  --lens-divider-color-primary: rgb(60, 64, 67);
+  --lens-bold-divider-color: rgb(23, 23, 23);
+  --lens-border-color-primary: rgb(95, 99, 104);
+  --lens-icon-color-primary: rgb(232, 234, 237);
+  --lens-gtin-icon-background-color: rgb(32, 33, 36);
+  --lens-gtin-icon-stroke-color: #dadada;
+  --lens-search-button-outline-color-lens: rgb(23, 78, 166);
+  --lens-search-button-container-fill-color-lens: var(--luxe-secondary-color);
+  --lens-search-button-outline-color-image-search: rgb(95, 99, 104);
+  --lens-search-button-container-fill-color-image-search: rgba(0, 0, 0, 0);
+  --lens-search-button-border-color-image-search: rgb(95, 99, 104);
+  --lens-more-images-button-highlight-color: rgba(232, 234, 237, 0.1);
+  --lens-pill-button-container-fill-color: rgb(60, 64, 67);
+  --lens-inline-toggle-button-hover-fill-color: rgba(255, 255, 255, 0.04);
+  --lens-inline-toggle-icon-color: rgb(232, 234, 237);
+  --lens-text-icon-button-color: rgb(232, 234, 237);
+  --lens-multimodal-thumbnail-scrim-color: rgba(255, 255, 255, 0.04);
+  --lens-multimodal-search-container-fill-color: rgb(60, 64, 67);
+  --lens-multimodal-mobile-search-container-fill-color: rgba(60, 64, 67);
+  --lens-multimodal-search-icon-color: rgb(102, 157, 246);
+  --lens-multimodal-clear-icon-color: rgb(232, 234, 237);
+  --lens-multimodal-divider-color: rgb(95, 99, 104);
+  --lens-multimodal-tooltip-color: rgb(174, 203, 250);
+  --lens-multimodal-back-button-color: rgba(168, 199, 250);
+  --lens-multimodal-placeholder-text-color: rgba(150, 155, 161);
+  --lens-multimodal-mobile-box-shadow-color: rgba(23, 23, 23, 0.32);
+  --lens-multimodal-uv-shadow-top: rgba(0, 0, 0, 0.15);
+  --lens-multimodal-uv-shadow-bottom: rgba(0, 0, 0, 0.3);
+  --lens-fill-button-ripple-color: #fff;
+  --lens-text-button-active-text-color: rgb(174, 203, 250);
+  --lens-text-button-ripple-color: rgb(174, 203, 250);
+  --lens-answer-card-ripple-press-opacity: 0.1;
+  --lens-ris-item-text-color: rgb(232, 234, 237);
+  --safesearch-banner-title-text-color: rgb(232, 234, 237);
+  --lens-chip-fill-color-selected: var(--luxe-secondary-color);
+  --lens-chip-ripple-color: rgb(232, 234, 237);
+  --lens-chip-text-color-assistive: rgb(232, 234, 237);
+  --lens-chip-text-color-suggestive: rgb(154, 160, 166);
+  --lens-chip-text-color-selected: rgb(210, 227, 252);
+  --lens-result-panel-loading-gif-url: url(https://www.gstatic.com/lens/web/ui/slurploading_darkmode-0f3c762403f6ab2c4528aedf06f37849.gif);
+  --lens-scroll-fab-icon-color: var(--lens-icon-color-primary);
+  --lens-scroll-fab-background-color: rgb(60, 64, 67);
+  --lens-scroll-fab-ink-color: #fff;
+  --lens-language-picker-background-color: rgb(32, 33, 36);
+  --lens-language-picker-text-color: #fff;
+  --lens-language-picker-chip-background-color: var(--luxe-secondary-color);
+  --lens-language-picker-arrow-color: rgb(232, 234, 237);
+  --lens-language-list-subheader-color: rgb(66, 133, 244);
+  --lens-language-list-icon-color: #fff;
+  --lens-language-list-selected-background-color: var(--luxe-secondary-color);
+  --lens-language-list-detected-locale-text-color: rgb(189, 193, 198);
+  --lens-background-text-panel-fill-color: rgba(255, 255, 255, 0.08);
+  --lens-background-text-panel-text-color: #fff;
+  --lens-grid-item-favicon-background-color: #fff;
+  --lens-grid-item-highlight-color: rgba(232, 234, 237, 0.1);
+  --lens-grid-item-cluster-border-color: rgb(95, 99, 104);
+  --lens-grid-item-cluster-highlight-color: rgba(138, 180, 248, 0.1);
+  --lens-grid-item-cluster-click-color: rgba(138, 180, 248, 0.2);
+  --lens-snackbar-background-color: #fff;
+  --lens-snackbar-text-color: rgb(60, 64, 67);
+  --lens-llm-card-background-color: rgb(50, 47, 56);
+  --lens-llm-card-text-color: rgb(244, 238, 250);
+  --lens-llm-header-icon-color: rgb(208, 188, 255);
+  --lens-llm-header-text-color: rgb(244, 238, 250);
+  --lens-llm-selected-container-color: rgb(76, 62, 118);
+  --lens-llm-primary-color: rgb(207, 189, 255);
+  --lens-llm-complement-color: rgb(247, 243, 185);
+  --lens-on-background-color: rgb(232, 234, 237);
+  --lens-background-color: rgb(32, 33, 36);
+  --lens-on-surface-color: rgb(232, 234, 237);
+  --lens-on-surface-variant-color: rgb(154, 160, 166);
+  --lens-surface-color: rgb(32, 33, 36);
+  --lens-surface-variant-color: rgb(60, 64, 67);
+  --lens-surface-variant-2-color: rgba(37, 38, 41);
+  --lens-on-primary-color: rgb(32, 33, 36);
+  --lens-primary-color: rgb(138, 180, 248);
+  --lens-on-secondary-color: rgb(210, 227, 252);
+  --lens-secondary-color: sass-color.mix(
+    rgb(32, 33, 36),
+    rgb(138, 180, 248),
+    24%
+  );
+  --lens-stars-color: rgb(253, 214, 99);
+  --lens-popular-color: rgb(250, 123, 23);
+  --lens-on-error-color: rgb(32, 33, 36);
+  --lens-outline-color: rgb(95, 99, 104);
+  --lens-error-color: rgb(242, 139, 130);
+  --lens-informative-color: rgb(128, 134, 139);
+  --lens-in-stock-color: rgb(129, 201, 149);
+  --lens-out-of-stock-color: rgb(242, 139, 130);
+  --lens-official-color: rgb(154, 160, 166);
+  --lens-used-color: rgb(154, 160, 166);
+  color-scheme: dark;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  color: #bdc1c6;
+  --center-width: 652px;
+  --rhs-margin: 76px;
+  --rhs-width: 372px;
+  --lhs-refinements-width: 0px;
+  --lhs-margin: 24px;
+  --lhs-width: calc(
+    var(--center-abs-margin) - var(--lhs-margin) - var(--center-margin)
+  );
+  --center-margin: 24px;
+  --grid-gutter-width: 20px;
+  --grid-column-width: 36px;
+  --center-abs-margin: calc(25vw + -188.75px);
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  overflow: hidden;
+  position: absolute;
+  border-radius: inherit;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}

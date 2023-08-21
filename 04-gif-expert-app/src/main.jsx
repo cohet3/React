@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { GifExpertApp } from "./GifExpertApp";
-import "./styles.css";
+// import "./styles.css";
 import { BrowserRouter, RouterProvider } from "react-router-dom";
 import Pruebacss from "./components/Pruebacss";
 import Camara from "./components/Camara";
@@ -23,6 +23,7 @@ import { Padre } from "./components/Hook-App/07-tarea-memo/Padre";
 import "./components/Hook-App/08-useReducer/intro-reducer";
 import { TodoApp } from "./components/Hook-App/08-useReducer/TodoApp";
 import { MainApp } from "./components/Hook-App/09-useContext/MainApp";
+import { España } from "./components/España";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <>
@@ -44,8 +45,9 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     {/* <CallbackHook /> */}
     {/* <Padre /> */}
     {/* <TodoApp /> */}
-    <BrowserRouter>
+    {/* <BrowserRouter>
       <MainApp />
-    </BrowserRouter>
+    </BrowserRouter> */}
+    <España />
   </>
 );
