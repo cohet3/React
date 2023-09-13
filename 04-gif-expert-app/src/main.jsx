@@ -4,7 +4,7 @@ import { GifExpertApp } from "./GifExpertApp";
 // import "./styles.css";
 import { BrowserRouter, RouterProvider } from "react-router-dom";
 import Pruebacss from "./components/Pruebacss";
-import Camara from "./components/Camara";
+
 import ClickPrinting from "./components/ClickPrinting";
 
 import "./custom.css";
@@ -23,7 +23,7 @@ import { Padre } from "./components/Hook-App/07-tarea-memo/Padre";
 import "./components/Hook-App/08-useReducer/intro-reducer";
 import { TodoApp } from "./components/Hook-App/08-useReducer/TodoApp";
 import { MainApp } from "./components/Hook-App/09-useContext/MainApp";
-import { España } from "./components/España";
+import { Indice } from "./components/Indice";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <>
@@ -48,6 +48,6 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     {/* <BrowserRouter>
       <MainApp />
     </BrowserRouter> */}
-    <España />
+    <Indice />
   </>
 );
